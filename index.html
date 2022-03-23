@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <title>Dinogotchi</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div id="block">
+          <div id="blockImg">
+              <img src="img/c825be1e26d369e77c8ac4f1d84dfe9c.gif" class="pet" id="pet" alt="imagem">
+          </div>
+          <div class="side"><h2><strong>Status</strong></h2>
+        Fome:<div id="hungry" class="bar"> 100%</div>
+        Higiene:<div id="hygiene" class="bar"> 100%</div>
+        sono:<div id="sleep" class="bar"> 100%</div>
+        Diversão:<div id="fun" class="bar"> 100%</div>
+        Social:<div id="social" class="bar"> 100%</div>
+        </div>
+        <div id="blockButton">
+            <p><span class="button" onclick="eat()">Comer</span></p>
+            <p><span class="button" onclick="shower()">Banho</span></p>
+            <p><span class="button" onclick="sleeping()">Dormir</span></p>
+            <p><span class="button" onclick="play()">Brincar</span></p>
+            <p><span class="button" onclick="talk()">Conversar</span></p>
+        </div>
+        <h3><div class="message"></div></h3>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>

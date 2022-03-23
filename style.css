@@ -1,0 +1,73 @@
+body {
+    overflow: hidden;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+.pet {
+    border-radius: 10;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 70px;
+    top: 150px;
+}
+
+strong {
+    color:aqua;
+}
+
+.block {
+    width: 400px;
+}
+
+.button {
+    padding: 6px 50px;
+    background: rgb(37, 238, 37);
+    color: #f2f2f2;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    top: -150px;
+    display: flex;
+    left: -45;
+}
+
+.button:hover {
+    background: rgb(0, 190, 0);
+}
+
+.button:active {
+    background: rgb(0, 66, 0);
+}
+
+.bar {
+    width: 100px;
+    background: #99cc00;
+    margin: 5px 10px;
+    border-radius: 4px;
+    padding: 3px 3px;
+}
+
+.side {
+    float: left;
+    margin: 10px 25px;
+    width: 120px;
+    position: relative;
+    top: -150px;
+    left: -80px;
+}
+
+#blockButton {
+    padding: 115px 0px;
+}
+
+#blockImg {
+    padding: 0px 0px;
+    position: relative;
+}
+
+.message {
+    color: red;
+}
